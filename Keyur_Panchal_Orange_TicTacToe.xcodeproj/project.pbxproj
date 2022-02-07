@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176A090027B0ECDD0049D13F /* Keyur_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176A08FF27B0ECDD0049D13F /* Keyur_TableViewController.swift */; };
+		176A090227B0EE3E0049D13F /* Keyur_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176A090127B0EE3E0049D13F /* Keyur_TableViewCell.swift */; };
 		17B691C927B07394009A0030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B691C827B07394009A0030 /* AppDelegate.swift */; };
 		17B691CB27B07394009A0030 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B691CA27B07394009A0030 /* SceneDelegate.swift */; };
 		17B691CD27B07394009A0030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B691CC27B07394009A0030 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		176A08FF27B0ECDD0049D13F /* Keyur_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyur_TableViewController.swift; sourceTree = "<group>"; };
+		176A090127B0EE3E0049D13F /* Keyur_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyur_TableViewCell.swift; sourceTree = "<group>"; };
 		17B691C527B07394009A0030 /* Keyur_Panchal_Orange_TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keyur_Panchal_Orange_TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B691C827B07394009A0030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17B691CA27B07394009A0030 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				17B691D127B07395009A0030 /* Assets.xcassets */,
 				17B691D327B07395009A0030 /* LaunchScreen.storyboard */,
 				17B691D627B07395009A0030 /* Info.plist */,
+				176A08FF27B0ECDD0049D13F /* Keyur_TableViewController.swift */,
+				176A090127B0EE3E0049D13F /* Keyur_TableViewCell.swift */,
 			);
 			path = Keyur_Panchal_Orange_TicTacToe;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176A090227B0EE3E0049D13F /* Keyur_TableViewCell.swift in Sources */,
+				176A090027B0ECDD0049D13F /* Keyur_TableViewController.swift in Sources */,
 				17B691CD27B07394009A0030 /* ViewController.swift in Sources */,
 				17B691C927B07394009A0030 /* AppDelegate.swift in Sources */,
 				17B691CB27B07394009A0030 /* SceneDelegate.swift in Sources */,
@@ -289,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Keyur_Panchal_Orange_TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Keyur_Panchal_Orange_TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
